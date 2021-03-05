@@ -3,29 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DCAC2CB806A16E6E68B69B8 /* Pods_Varka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6354EDC295DF6C58987E5FB0 /* Pods_Varka.framework */; };
 		E477D74825F0BDBE00FA4081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477D74725F0BDBE00FA4081 /* AppDelegate.swift */; };
 		E477D74A25F0BDBE00FA4081 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477D74925F0BDBE00FA4081 /* SceneDelegate.swift */; };
-		E477D74C25F0BDBE00FA4081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477D74B25F0BDBE00FA4081 /* ViewController.swift */; };
 		E477D74F25F0BDBE00FA4081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E477D74D25F0BDBE00FA4081 /* Main.storyboard */; };
 		E477D75225F0BDBE00FA4081 /* Varka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E477D75025F0BDBE00FA4081 /* Varka.xcdatamodeld */; };
 		E477D75425F0BDC400FA4081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E477D75325F0BDC400FA4081 /* Assets.xcassets */; };
 		E477D75725F0BDC400FA4081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E477D75525F0BDC400FA4081 /* LaunchScreen.storyboard */; };
+		E477D77C25F2030700FA4081 /* InfoAboutProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477D77B25F2030700FA4081 /* InfoAboutProductViewController.swift */; };
+		E477D78025F2031E00FA4081 /* InfoAboutProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477D77F25F2031E00FA4081 /* InfoAboutProductViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6354EDC295DF6C58987E5FB0 /* Pods_Varka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Varka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB841BE47A8CA04ACEB7527C /* Pods-Varka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Varka.debug.xcconfig"; path = "Target Support Files/Pods-Varka/Pods-Varka.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF3E86C3D02DFE0E53168D5 /* Pods-Varka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Varka.release.xcconfig"; path = "Target Support Files/Pods-Varka/Pods-Varka.release.xcconfig"; sourceTree = "<group>"; };
 		E477D74425F0BDBE00FA4081 /* Varka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Varka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E477D74725F0BDBE00FA4081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E477D74925F0BDBE00FA4081 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E477D74B25F0BDBE00FA4081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E477D74E25F0BDBE00FA4081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E477D75125F0BDBE00FA4081 /* Varka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Varka.xcdatamodel; sourceTree = "<group>"; };
 		E477D75325F0BDC400FA4081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E477D75625F0BDC400FA4081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E477D75825F0BDC400FA4081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E477D77B25F2030700FA4081 /* InfoAboutProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAboutProductViewController.swift; sourceTree = "<group>"; };
+		E477D77F25F2031E00FA4081 /* InfoAboutProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAboutProductViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DCAC2CB806A16E6E68B69B8 /* Pods_Varka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4EA13D334ADCCC8D08830A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB841BE47A8CA04ACEB7527C /* Pods-Varka.debug.xcconfig */,
+				DDF3E86C3D02DFE0E53168D5 /* Pods-Varka.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAF5B01FD2A162ECDD5EBD54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6354EDC295DF6C58987E5FB0 /* Pods_Varka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E477D73B25F0BDBE00FA4081 = {
 			isa = PBXGroup;
 			children = (
 				E477D74625F0BDBE00FA4081 /* Varka */,
 				E477D74525F0BDBE00FA4081 /* Products */,
+				A4EA13D334ADCCC8D08830A9 /* Pods */,
+				AAF5B01FD2A162ECDD5EBD54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +84,65 @@
 		E477D74625F0BDBE00FA4081 /* Varka */ = {
 			isa = PBXGroup;
 			children = (
-				E477D74725F0BDBE00FA4081 /* AppDelegate.swift */,
-				E477D74925F0BDBE00FA4081 /* SceneDelegate.swift */,
-				E477D74B25F0BDBE00FA4081 /* ViewController.swift */,
-				E477D74D25F0BDBE00FA4081 /* Main.storyboard */,
-				E477D75325F0BDC400FA4081 /* Assets.xcassets */,
-				E477D75525F0BDC400FA4081 /* LaunchScreen.storyboard */,
-				E477D75825F0BDC400FA4081 /* Info.plist */,
-				E477D75025F0BDBE00FA4081 /* Varka.xcdatamodeld */,
+				E477D77A25F202E900FA4081 /* InfoAboutProduct */,
+				E477D76E25F1FC5D00FA4081 /* Storyboard */,
+				E477D77225F1FCA800FA4081 /* SupportingFiles */,
+				E477D77125F1FC9C00FA4081 /* Resources */,
+				E477D77025F1FC8600FA4081 /* Services */,
+				E477D76F25F1FC7B00FA4081 /* Models */,
 			);
 			path = Varka;
+			sourceTree = "<group>";
+		};
+		E477D76E25F1FC5D00FA4081 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E477D75525F0BDC400FA4081 /* LaunchScreen.storyboard */,
+				E477D74D25F0BDBE00FA4081 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E477D76F25F1FC7B00FA4081 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E477D77025F1FC8600FA4081 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E477D77125F1FC9C00FA4081 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E477D75325F0BDC400FA4081 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E477D77225F1FCA800FA4081 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E477D74725F0BDBE00FA4081 /* AppDelegate.swift */,
+				E477D74925F0BDBE00FA4081 /* SceneDelegate.swift */,
+				E477D75025F0BDBE00FA4081 /* Varka.xcdatamodeld */,
+				E477D75825F0BDC400FA4081 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		E477D77A25F202E900FA4081 /* InfoAboutProduct */ = {
+			isa = PBXGroup;
+			children = (
+				E477D77B25F2030700FA4081 /* InfoAboutProductViewController.swift */,
+				E477D77F25F2031E00FA4081 /* InfoAboutProductViewModel.swift */,
+			);
+			path = InfoAboutProduct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E477D75B25F0BDC400FA4081 /* Build configuration list for PBXNativeTarget "Varka" */;
 			buildPhases = (
+				95B57DA37BA57BBD4DD1154C /* [CP] Check Pods Manifest.lock */,
 				E477D74025F0BDBE00FA4081 /* Sources */,
 				E477D74125F0BDBE00FA4081 /* Frameworks */,
 				E477D74225F0BDBE00FA4081 /* Resources */,
+				8FE85CC574AB992B212EED12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,14 +212,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8FE85CC574AB992B212EED12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Varka/Pods-Varka-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Varka/Pods-Varka-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Varka/Pods-Varka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95B57DA37BA57BBD4DD1154C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Varka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E477D74025F0BDBE00FA4081 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E477D74C25F0BDBE00FA4081 /* ViewController.swift in Sources */,
+				E477D78025F2031E00FA4081 /* InfoAboutProductViewModel.swift in Sources */,
 				E477D74825F0BDBE00FA4081 /* AppDelegate.swift in Sources */,
 				E477D74A25F0BDBE00FA4081 /* SceneDelegate.swift in Sources */,
+				E477D77C25F2030700FA4081 /* InfoAboutProductViewController.swift in Sources */,
 				E477D75225F0BDBE00FA4081 /* Varka.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +407,14 @@
 		};
 		E477D75C25F0BDC400FA4081 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB841BE47A8CA04ACEB7527C /* Pods-Varka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58287L88KM;
-				INFOPLIST_FILE = Varka/Info.plist;
+				INFOPLIST_FILE = Varka/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +428,14 @@
 		};
 		E477D75D25F0BDC400FA4081 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDF3E86C3D02DFE0E53168D5 /* Pods-Varka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 58287L88KM;
-				INFOPLIST_FILE = Varka/Info.plist;
+				INFOPLIST_FILE = Varka/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
