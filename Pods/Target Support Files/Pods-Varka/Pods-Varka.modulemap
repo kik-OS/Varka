@@ -1,0 +1,6 @@
+framework module Pods_Varka {
+  umbrella header "Pods-Varka-umbrella.h"
+
+  export *
+  module * { export * }
+}
